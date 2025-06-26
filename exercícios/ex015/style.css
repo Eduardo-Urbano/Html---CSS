@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(41, 209, 92);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    color: blue; 
+    background-color: rgb(136, 115, 255);
+}
+
+h2{
+    color: rgb(48, 38, 38);
+}
+
+p{
+    text-align: justify;
+}
+
+.btn{
+    background-color: transparent;
+    color: blueviolet; transition: 0.5s ease;
+    position: relative; overflow: hidden;
+}
+
+.btn1::before{
+    position: absolute;
+    left: 0; top: 0;
+    width: 0%; height: 100%;
+    transition: all 0.3s;
+    background-color: #0fbcf9;
+    z-index: -1;
+    transform: translateX(-100%);
+}

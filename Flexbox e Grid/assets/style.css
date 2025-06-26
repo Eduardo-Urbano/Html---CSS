@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    gap: 20px;
+}
+
+.itens{
+    background-color: gray;
+}
