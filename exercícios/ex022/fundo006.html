@@ -3,19 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
+            /*
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
-            background-repeat: no-repeat;
+            background-repeat: repeat-y;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /*Shorthad - background
+                color > image > position > repeat > [size] > attachment
+
+                O "size" apesar de estar na documentação, ele não funciona na shorthand, mesmo a documentação dizendo que funciona na shorthand
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
+
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -24,7 +36,6 @@
     </style>
 </head>
 <body>
-
     <main>
         <h1>Teste de Imagem de Fundo</h1>
         <p>
@@ -32,7 +43,31 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut at nostrum explicabo doloremque obcaecati dolorum laboriosam ad praesentium delectus reprehenderit numquam quae voluptates repellat non assumenda, expedita sunt. Eligendi, libero.
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus porro voluptas fugiat consectetur harum corporis vero nostrum, accusamus cum sequi tempore omnis maxime animi, eligendi delectus, architecto adipisci natus recusandae?
         </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ullam sit reiciendis? Maxime ad neque adipisci aperiam unde velit, eius autem possimus cupiditate repellendus expedita rem impedit delectus culpa at.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut at nostrum explicabo doloremque obcaecati dolorum laboriosam ad praesentium delectus reprehenderit numquam quae voluptates repellat non assumenda, expedita sunt. Eligendi, libero.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus porro voluptas fugiat consectetur harum corporis vero nostrum, accusamus cum sequi tempore omnis maxime animi, eligendi delectus, architecto adipisci natus recusandae?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ullam sit reiciendis? Maxime ad neque adipisci aperiam unde velit, eius autem possimus cupiditate repellendus expedita rem impedit delectus culpa at.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut at nostrum explicabo doloremque obcaecati dolorum laboriosam ad praesentium delectus reprehenderit numquam quae voluptates repellat non assumenda, expedita sunt. Eligendi, libero.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus porro voluptas fugiat consectetur harum corporis vero nostrum, accusamus cum sequi tempore omnis maxime animi, eligendi delectus, architecto adipisci natus recusandae?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ullam sit reiciendis? Maxime ad neque adipisci aperiam unde velit, eius autem possimus cupiditate repellendus expedita rem impedit delectus culpa at.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut at nostrum explicabo doloremque obcaecati dolorum laboriosam ad praesentium delectus reprehenderit numquam quae voluptates repellat non assumenda, expedita sunt. Eligendi, libero.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus porro voluptas fugiat consectetur harum corporis vero nostrum, accusamus cum sequi tempore omnis maxime animi, eligendi delectus, architecto adipisci natus recusandae?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ullam sit reiciendis? Maxime ad neque adipisci aperiam unde velit, eius autem possimus cupiditate repellendus expedita rem impedit delectus culpa at.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut at nostrum explicabo doloremque obcaecati dolorum laboriosam ad praesentium delectus reprehenderit numquam quae voluptates repellat non assumenda, expedita sunt. Eligendi, libero.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus porro voluptas fugiat consectetur harum corporis vero nostrum, accusamus cum sequi tempore omnis maxime animi, eligendi delectus, architecto adipisci natus recusandae?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ullam sit reiciendis? Maxime ad neque adipisci aperiam unde velit, eius autem possimus cupiditate repellendus expedita rem impedit delectus culpa at.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut at nostrum explicabo doloremque obcaecati dolorum laboriosam ad praesentium delectus reprehenderit numquam quae voluptates repellat non assumenda, expedita sunt. Eligendi, libero.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus porro voluptas fugiat consectetur harum corporis vero nostrum, accusamus cum sequi tempore omnis maxime animi, eligendi delectus, architecto adipisci natus recusandae?
+        </p>
     </main>
-    
 </body>
 </html>
